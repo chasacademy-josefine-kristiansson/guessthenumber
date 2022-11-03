@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Guess the Number</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>I am thinking about a number between 1-100...</h1>
+      <h2>How fast can you guess the correct number?</h2>
+      <p id="correct"></p>
+      <input id="inputForm" type="text" placeholder="NuN" />
+      <button onclick="play()" id="myButton" type="button">Guess</button>
+      <p id="toLow"></p>
+      <p id="toHigh"></p>
+      <p id="guessCount"></p>
+      <ol id="listNumbers"></ol>
+    </main>
+    <p id="randomNumber"></p>
+    <script src="js/index.js"></script>
+  </body>
+</html>
