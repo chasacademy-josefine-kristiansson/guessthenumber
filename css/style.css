@@ -5,6 +5,14 @@
   --4: #b7afcc;
 }
 
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
 body {
   background: linear-gradient(to right, #b7afcc, #5c5470, #383346, #2a2438);
   font-family: monospace;
