@@ -11,13 +11,16 @@
     <main class="container">
       <h1>I am thinking about a number between 1-100...</h1>
       <h2>How fast can you guess the correct number?</h2>
-      <p id="correct"></p>
+      <h2 id="guessInformation" class="guessInformation"></h2>
       <input id="inputForm" type="text" placeholder="NuN" />
-      <button onclick="play()" id="myButton" type="button">Guess</button>
-      <p id="toLow"></p>
-      <p id="toHigh"></p>
-      <p id="guessCount"></p>
-      <ol id="listNumbers"></ol>
+      <button onclick="play()" id="myButton" type="button">
+        Guess a number
+      </button>
+      <button id="reset" type="button" onclick="playAgain()">Play Again</button>
+      <h2 id="guessCount">Guesses used</h2>
+      <p id="guesses">0</p>
+      <h2>Previous Guesses</h2>
+      <p id="previousGuesses"></p>
     </main>
     <p id="randomNumber"></p>
     <script src="js/index.js"></script>
